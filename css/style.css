@@ -1,0 +1,71 @@
+#container
+{
+    width: 1000px;
+    height: 100%;
+    background-color: #333333;
+    
+}
+
+#logo 
+{
+    font-family: 'Frank Ruhl Libre';
+    font-size: 125px;
+    text-align: center;
+    padding-top: 200px;
+}
+
+#logo1
+{
+    font-family: 'Indie Flower';
+    font-size: 31px;
+    text-align: center;
+    margin-right: 200px;
+}
+
+#logo2
+{
+    font-family: 'Frank Ruhl Libre';
+    font-size: 62px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#timer
+{
+    font-family: 'Frank Ruhl Libre';
+    font-size: 41px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#contact
+{
+    font-family: 'Indie Flower';
+    font-size: 25px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 5px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #4CAF50 !important;
+}
